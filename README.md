@@ -33,9 +33,9 @@ logic_gates_tb.v	All input combinations and VCD generation
     assign y_or  = a | b;   // OR gate
     assign y_not = ~a;      // NOT gate (inverter)
 
-endmodule
+endmodule```
 # **Test Bench Program**
-module tb2;
+```module tb2;
 
     reg a, b;
     wire y_and, y_or, y_not;
@@ -121,7 +121,8 @@ Y_NOT = A'
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 Output
 # OUTPUT
-<img width="1920" height="1020" alt="2026-11-21" src="https://github.com/user-attachments/assets/061f1fac-e365-465a-850e-203ebca58179" />
+<img width="1920" height="1020" alt="2026-11-21" src="https://github.com/user-attachments/assets/11c4dbc9-22f5-4ed5-9e0b-462c75361ec6" />
+
 
 
  
