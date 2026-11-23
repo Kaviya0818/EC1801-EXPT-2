@@ -33,9 +33,9 @@ logic_gates_tb.v	All input combinations and VCD generation
     assign y_or  = a | b;   // OR gate
     assign y_not = ~a;      // NOT gate (inverter)
 
-endmodule```
+endmodule
 # **Test Bench Program**
-```module tb2;
+module tb2;
 
     reg a, b;
     wire y_and, y_or, y_not;
